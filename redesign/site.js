@@ -1,4 +1,11 @@
 'use strict';
+// Keep public visitors on the certificate-covered origin while Pages provisions both names.
+if (typeof window !== 'undefined' && window.location.protocol === 'http:' && ['tnkg.com', 'www.tnkg.com'].includes(window.location.hostname)) {
+  const secureUrl = new URL(window.location.href);
+  secureUrl.protocol = 'https:';
+  secureUrl.hostname = 'www.tnkg.com';
+  window.location.replace(secureUrl.href);
+}
 const menuButton = document.querySelector('.menu-toggle');
 const navigation = document.querySelector('.nav');
 function closeMenu() { navigation?.classList.remove('open'); menuButton?.setAttribute('aria-expanded', 'false'); }
