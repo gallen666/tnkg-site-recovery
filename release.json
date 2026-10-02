@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-02.2",
+  "version": "2026-10-02.3",
   "site": "https://www.tnkg.com",
   "pages": [
     "index.html",
@@ -11,5 +11,8 @@
     "contact.html"
   ],
   "archive_articles": 233,
+  "article_template": "unified-current-website",
+  "legacy_section_redirects": 74,
+  "full_news_index": "/news-all.html",
   "logo_sha256": "5d04972c5bd92f252e0168ca3bbcb98e7f8abf2c345a74f6d202833695e59831"
 }
