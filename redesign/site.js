@@ -15,6 +15,10 @@ menuButton?.addEventListener('click', () => {
 });
 navigation?.addEventListener('click', event => { if (event.target.closest('a')) closeMenu(); });
 document.addEventListener('keydown', event => { if (event.key === 'Escape') closeMenu(); });
+document.addEventListener('click', event => { if (!event.target.closest('.masthead')) closeMenu(); });
+if (typeof window !== 'undefined' && window.matchMedia) {
+  window.matchMedia('(min-width: 1025px)').addEventListener('change', closeMenu);
+}
 
 const archive = document.querySelector('#news-results');
 if (archive) {
@@ -43,7 +47,7 @@ if (archive) {
       link.append(date, title, tag, arrow); archive.append(link);
     }
     if (!matches.length) { const empty = document.createElement('p'); empty.className = 'empty'; empty.textContent = '没有找到相关记录，请更换关键词或筛选条件。'; archive.append(empty); }
-    status.textContent = `共 ${matches.length} 条记录 · 按原站发布日期排列`;
+    status.textContent = `共 ${matches.length} 条记录 · 按发布日期排列`;
     pageLabel.textContent = `${page} / ${pages}`;
     previous.disabled = page <= 1; next.disabled = page >= pages;
   }
