@@ -1,0 +1,394 @@
+@charset "utf-8";
+
+html, body, div, p, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td {
+     margin: 0px;
+     padding: 0px;
+}
+
+img {
+     border: 0px none;
+     vertical-align: top;
+}
+
+ul, li {
+     list-style-type: none;
+}
+
+
+.pptitle{
+    padding: 10px 0 10px 25px;
+    border-bottom: 1px solid #eee;
+    font-size: 18px;
+    color: #333;
+    background-image: url(../images/news_05.jpg);
+    background-position: center left;
+    background-repeat: no-repeat;
+}
+
+.arial {
+     font-family: arial;
+}
+
+.song {
+     font-family: "宋体";
+}
+
+button {
+     cursor: pointer;
+}
+
+
+html {
+    
+}
+
+a {
+     color: #000000;
+     text-decoration: none;
+}
+
+a {
+    
+}
+
+a:hover {
+     color: #9f2943;
+     text-decoration: none;
+}
+
+a:focus {
+     outline: medium none;
+}
+
+.fixed::after {
+     clear: both;
+     content: ".";
+     display: block;
+     height: 0px;
+     visibility: hidden;
+}
+
+.fixed {
+     display: block;
+     min-height: 1%;
+}
+
+.clear {
+     clear: both;
+     display: block ! important;
+     float: none ! important;
+     font-size: 0px;
+     height: 0px ! important;
+     line-height: 0;
+     margin: 0px auto ! important;
+     overflow: hidden;
+     padding: 0px ! important;
+     width: auto ! important;
+}
+
+.fl, .fr {
+     display: inline;
+     float: left;
+}
+
+.fr {
+     float: right;
+}
+
+.center {
+     text-align: center;
+}
+
+.hidden {
+     display: none;
+}
+
+.bodybg {
+     background: #f7f7f6 none repeat scroll 0% 0%;
+}
+
+.headebg {
+     background: #000000 none repeat scroll 0% 0%;
+     height: 94px;
+     margin: 0px auto;
+     width: 100%;
+}
+
+.header {
+     margin: 0px auto;
+     width: 1000px;
+}
+
+.header .logo {
+     float: left;
+     padding: 10px 0px 0px 4px;
+}
+
+.header .headrt {
+     float: right;
+     padding-top: 7px;
+     width: 790px;
+}
+
+.banner {
+     float: right;
+     padding-top: 30px;
+}
+
+.banner ul li {
+     float: left;
+     position: relative;
+}
+
+.banner ul li p {
+     color: #fefefe;
+     cursor: pointer;
+    
+     height: 35px;
+     text-align: center;
+}
+
+.banner ul li p span {
+     display: block;
+     text-align: center;
+     width: 100px;
+}
+
+.banner ul li p .span02 {
+     color: #6c6c6c;
+     font-family: Arial,Helvetica,sans-serif;
+     font-size: 11px;
+}
+
+.banner ul li p a {
+     color: #fefefe;
+}
+
+.banner ul li p a.phover {
+     color: #c68913;
+}
+
+.banner ul li p a.phover:hover {
+     color: #c68913;
+}
+
+.banner ul li p a:hover {
+     color: #c68913;
+}
+
+.banner ul li p a.phover02 {
+     color: #c68913;
+}
+
+.banner ul li .bnnext {
+     background: rgba(0, 0, 0, 0) url("../images/in_bnlibg01.png") repeat scroll 0% 0%;
+     display: none;
+     left: -2px;
+     line-height: 30px;
+     overflow: hidden;
+     position: absolute;
+     top: 35px;
+     width: 112px;
+     z-index: 9999;
+}
+
+.banner ul li .bnnext dl {
+     background: #000;
+     overflow: hidden;
+     padding: 10px 0px;
+}
+
+.banner ul li .bnnext dl dd {
+     padding: 0px 26px;
+}
+
+.banner ul li .bnnext a {
+     color: #ffffff;
+     display: inline-block;
+	 font-size:12px;
+}
+
+.banner ul li .bnnext a:hover {
+     color: #7a7a7a;
+}
+
+.banner ul li .bnnext2 {
+     left: -7px;
+     width: 114px;
+}
+
+.banner ul li .bnnext3 {
+     left: -13px;
+     width: 126px;
+}
+
+.banner ul li .bnnext4 {
+     left: -7px;
+     width: 114px;
+}
+
+.banner ul li .bnnext5 {
+    
+     width: 148px;
+}
+
+.banner ul li .bnnext6 {
+    
+}
+
+.in_bnimg {
+     margin-top: -2px;
+     width: 100%;
+}
+
+.banner_wrapper {
+     height: 412px;
+     overflow: hidden;
+     position: relative;
+     z-index: 1;
+}
+
+
+
+
+
+
+.footer {
+    background: #1c1c1c none repeat scroll 0 0;
+    overflow: hidden;
+    width: 100%;
+}
+.ftnav {
+    margin: 0 auto;
+    width: 1000px;
+}
+.ftnav ul {
+    float: left;
+    margin-left: -16px;
+    padding: 85px 0 46px;
+}
+.ftnav ul li {
+    background: rgba(0, 0, 0, 0) url("../images/in_ftmavli01.jpg") no-repeat scroll right 5px;
+    color: #fefefe;
+    float: left;
+    font-size: 14px;
+    text-align: center;
+}
+.ftnav ul li span {
+    display: block;
+    text-align: center;
+    width: 96px;
+}
+.ftnav ul li .span02 {
+    color: #6c6c6c;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+}
+.ftnav ul li a {
+    color: #fefefe;
+}
+.ftnav ul li a:hover {
+    color: #c68913;
+}
+.ftnav ul li.lastbg {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.ftnav .ftlogo {
+    float: right;
+    padding-top: 73px;
+}
+.ftadd {
+    border-top: 2px solid #2d2d2d;
+    color: #616161;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0 auto;
+    padding-bottom: 46px;
+    width: 98%;
+}
+.ftadd .ftaddnr {
+    margin: 0 auto;
+    width: 1000px;
+}
+.ftadd ul {
+    float: left;
+    width: 420px;
+}
+.ftadd ul li {
+    overflow: hidden;
+    width: 100%;
+}
+.ftadd ul li a {
+    color: #616161;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.ftadd ul li a:hover {
+    color: #c68913;
+}
+.ftadd ul li span {
+    display: inline-block;
+    float: left;
+    padding: 20px 30px 0 0;
+    width: 180px;
+}
+.ftadd .share_box {
+    float: right;
+    padding-top: 26px;
+}
+.ftadd .share_box dl dd {
+    float: left;
+    position: relative;
+}
+.ftadd .share_box a {
+    display: inline-block;
+    float: left;
+    height: 44px;
+    margin-left: 11px;
+    width: 44px;
+}
+.ftadd .share_box .icon_sina {
+    background: rgba(0, 0, 0, 0) url("../images/sina.png") no-repeat scroll 0 0;
+    opacity: 0.37;
+}
+.ftadd .share_box .icon_weixin {
+    background: rgba(0, 0, 0, 0) url("../images/weixin.png") no-repeat scroll 0 0;
+    cursor: pointer;
+    opacity: 0.37;
+}
+.ftadd .share_box .icon_youku {
+    background: rgba(0, 0, 0, 0) url("../images/youku.png") no-repeat scroll 0 0;
+    opacity: 0.37;
+}
+.ftadd .share_box a:hover {
+    opacity: 1;
+}
+.ftadd .share_box .incodeimg {
+    display: none;
+    height: 220px;
+    left: -63px;
+    position: absolute;
+    top: -190px;
+    width: 220px;
+    z-index: 9999;
+}
+.ft_copy {
+    background: #282828 none repeat scroll 0 0;
+    width: 100%;
+	font-size:14px;
+}
+.ft_copy .ft_copynr {
+    color: #bebdbd;
+    font-family: Arial,Helvetica,sans-serif;
+    margin: 0 auto;
+    padding: 24px 0;
+    width: 1000px;
+}
+.ft_copy .ft_copynr span {
+    color: #616161;
+}
+.ft_copy .ft_copynr a {
+    color: #616161;
+}
+.ft_copy .ft_copynr a:hover {
+    color: #c68913;
+}
